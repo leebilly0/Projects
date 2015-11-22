@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EstimateArrivalA</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="totalDistanceView">Total Distance:</string>
+    <string name="distanceTraveledView">Distance Traveled:</string>
+    <string name="timeTraveledView">Time Traveled:</string>
+    <string name="remainingDistanceView">Remaining Distance:</string>
+    <string name="remainingDistanceOutput"> </string>
+    <string name="averageSpeedView">Average Speed:</string>
+    <string name="averageSpeedOutput"> </string>
+    <string name="estimatedArrivalTime">Estimated Arrival:</string>
+    <string name="estimatedArrivalTimeOutput"> </string>
+    <string name="calculateButton">Calculate</string>
+
+</resources>

@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/costFoodText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/cost_of_food"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/calculatebutton" />
+
+    <TextView
+        android:id="@+id/TotalAmountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tipAmount"
+        android:layout_below="@+id/tipAmount"
+        android:layout_marginTop="19dp"
+        android:text="@string/totalAmountString"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tipPercentText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/costFoodText"
+        android:layout_below="@+id/costFoodBox"
+        android:layout_marginTop="21dp"
+        android:text="@string/tip_percent"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tipAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tipPercentText"
+        android:layout_below="@+id/tipPercentText"
+        android:layout_marginTop="16dp"
+        android:text="@string/tipAmount"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/costFoodBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/costFoodText"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="22dp"
+        android:layout_toRightOf="@+id/calculateButton"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editPercent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tipAmount"
+        android:layout_alignRight="@+id/costFoodBox"
+        android:layout_toRightOf="@+id/calculateButton"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="3" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/TotalAmountText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TotalAmountTextView"
+        android:layout_alignBottom="@+id/TotalAmountTextView"
+        android:layout_toRightOf="@+id/calculateButton"
+        android:text="@string/totalAmount"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/TipAmountText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/TotalAmountTextView"
+        android:layout_toRightOf="@+id/calculateButton"
+        android:text="@string/tipAmountText"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

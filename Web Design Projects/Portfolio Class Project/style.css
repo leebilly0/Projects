@@ -1,0 +1,257 @@
+
+*:focus, *:active{
+	outline: none;
+}
+body{
+	font-family: Arial;
+	background-color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+	background: -webkit-linear-gradient(#CCC, #FFF); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#CCC, #FFF); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#CCC, #FFF); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#CCC, #FFF); /* Standard syntax */
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	height:100%;
+}
+
+#navigationrow{
+	
+
+}
+
+#nav{
+padding-top: 3%;
+}
+#nav div{
+	float: left;
+	width: 16%;
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+#nav div:hover{
+	background-color: #FFF;
+	
+}
+
+#nav div:hover a{
+	color: #000;
+	text-decoration: underline;
+	
+}
+
+#nav div a {
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	font: white;
+}
+
+a:visited {
+	color: blue;
+}
+
+#paragraph img{
+	float: left;
+}
+
+#ics140 img{
+	float: right;
+	width: 70%;
+}
+
+#ics141 img{
+
+}
+
+#ics240 img{
+	width: 70%;
+}
+
+#projects{
+	float: center;
+	text-align: center;
+}
+
+#projects img{
+	width: 100%;
+}
+
+#androiddevelopment img{
+	width: 20%;
+}
+
+#androidcode img{
+	width: 70%;
+}
+
+#flashcode img{
+	width:70%;
+}
+
+#ioscode img{
+	width: 100%;
+}
+
+#flashlogo img{
+	width: 20%;
+}
+
+#xcodelogo img {
+	width: 20%;
+}
+
+#content {
+
+margin: 0 auto;
+width: 960px;
+}
+
+#headercolor{
+background-color: #000;
+height: 5em;
+}
+
+.mainpictureclass {
+	background-color: #FFF;
+	height: 20em;
+}
+
+.paragraphstuff {
+	padding: 1%;
+}
+
+#mainpicture {
+	background-image:url("me.jpg");
+
+}
+
+#aboutpicture{
+	margin-top: 1%;
+	background-image:url("aboutpic.jpg");
+}
+
+#aboutmepic {
+	margin-right:1%;
+}
+
+#classpicture {
+	background-image:url("classespic.jpg");
+	margin-top: 1%;
+}
+
+#webdesignpicture {
+	background-image:url("225banner.jpg");
+	margin-top: 1%;
+}
+
+#databasebanner {
+	background-image:url("databasebanner.jpg");
+	margin-top: 1%;
+}
+
+#androiddevelopmentbanner {
+	background-image:url("androiddevelopmentbanner.jpg");
+	margin-top: 1%;
+}
+
+#computerorganizationbanner {
+	background-image:url("computerorganizationbanner.jpg");
+	margin-top: 1%;
+}
+
+#ics140banner {
+	background-image:url("140banner.jpg");
+	margin-top: 1%;
+}
+
+#ics141banner {
+	background-image:url("ics141banner.jpg");
+	margin-top: 1%;
+}
+
+#calc1banner{
+	background-image:url("calc1banner.jpg");
+	margin-top: 1%;
+}
+
+#calc2banner{
+	background-image:url("calc2banner.jpg");
+	margin-top: 1%;
+}
+
+#discretebanner{
+	background-image:url("dicretebanner.jpg");
+	margin-top: 1%;
+}
+
+#databanner{
+	background-image:url("240banner.jpg");
+	margin-top: 1%;
+}
+
+#footer {
+	text-align: center;
+}
+
+#copyright {
+	color: #CCC;
+}
+
+#siteproject {
+	float:left;
+	padding-left: 5em;
+}
+
+#sitebio {
+	float:left;
+}
+input{
+	padding: 10px;
+}
+input:focus, textarea:focus, select:focus{  
+background-color: rgb(255, 244, 227);
+	border: 1px solid rgb(223, 193, 146);
+	
+}
+
+#classparagraph{
+	text-align: center;
+}
+
+.tooltip{
+   			display: inline;
+    		position: relative;
+		}
+		
+.tooltip:hover:after{
+    		background: #333;
+    		background: rgba(0,0,0,.8);
+    		border-radius: 5px;
+    		bottom: 26px;
+    		color: #fff;
+    		content: attr(title);
+    		left: 20%;
+    		padding: 5px 15px;
+    		position: absolute;
+    		z-index: 98;
+    		width: 220px;
+}
+		
+.tooltip:hover:before{
+    		border: solid;
+    		border-color: #333 transparent;
+    		border-width: 6px 6px 0 6px;
+    		bottom: 20px;
+    		content: "";
+    		left: 50%;
+    		position: absolute;
+    		z-index: 99;
+}
